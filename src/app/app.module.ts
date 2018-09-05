@@ -17,7 +17,8 @@ import { ItemService } from './services/item.service';
   ],
   imports: [
     BrowserModule,
-    AngularFireModule.initializeApp(environment.firebase, 'fbase'), AngularFirestoreModule
+    AngularFireModule.initializeApp(environment.firebase, 'fbase'),
+    AngularFirestoreModule
   ],
   providers: [ItemService],
   bootstrap: [AppComponent]
